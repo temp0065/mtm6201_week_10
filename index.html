@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstaps icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS Link -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+            <div class="container-xl">
+                <!-- Website logo -->
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo for 3 star media">
+              </a>
+              <!-- Hamburger menu -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#teams">Team</a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control text-bg-light rounded-0 border border-white" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary rounded-0" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div> <!--closes .navber-collapse-->
+            </div> <!--closes .container-xl-->
+          </nav>
+    </header>
+    <main>
+      <section id="banner" class="banner py-5">
+        <div class="bg-dark text-light container-xl my-0 py-4 bg-opacity-75">
+          <h1 class="display-1">Welcome to Three Star Media</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe illo, harum incidunt similique excepturi doloribus distinctio laboriosam delectus autem, deleniti provident asperiores dolore deserunt in. Atque deleniti error laboriosam.</p>
+          <a href="#contact" class="btn btn-primary rounded-0 p-3">Connect with us <i class="bi bi-caret-right-fill"></i></a>
+        </div>
+      </section><!--Closes banner section-->
+      <section id="about-us" class="bg-secondary py-2">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md">
+              <img src="images/about-us.jpg" alt="Office sapce" class="img-fluid">
+            </div>
+            <div class="col-md">
+              <h2 class="display-3">About Us</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas vel deserunt perspiciatis sit labore a natus excepturi delectus libero? Labore dignissimos et nulla praesentium amet quisquam veniam sint aspernatur temporibus!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, molestias sint aliquam laboriosam deserunt magni maxime ipsa! Aspernatur, minima facere provident quasi alias dolorem porro voluptas commodi officiis blanditiis libero.</p>
+            </div> <!--Closes .col-md-->
+          </div> <!-- Close .row-->
+        </div> <!-- Closes .container-xl -->
+      </section> <!-- Closes #about-us-->
+      <section id="services" class="contain-xl py-2">
+        <h2 class="display-3">Our Services</h2>
+        <div class="row g-2">
+          <div class="col-md-6">
+            <div class="card rounded-0 border-0">
+              <img src="images/digital.jpg" class="card-img-top rounded-0" alt="User on laptop and mobile device">
+              <div class="card-body bg-secondary">
+                <h3 class="card-title">Digital Transformation</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark w-100 rounded-0 p-3">Digital Plans <i class="bi bi-caret-right-fill"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card rounded-0 border-0">
+              <img src="images/marketing.jpg" class="card-img-top rounded-0" alt="Stats on laptop">
+              <div class="card-body bg-secondary">
+                <h3 class="card-title">Marketing</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark w-100 rounded-0 p-3">Marketing Plans <i class="bi bi-caret-right-fill"></i></a>
+              </div> <!-- Closes card-body-->
+            </div> <!-- Closes card-->
+          </div> <!--Closes col-->
+
+          <div class="col-md-4">
+            <div class="card rounded-0 border-0">
+              <img src="images/video.jpg" class="card-img-top rounded-0" alt="User playing Youtube on computer">
+              <div class="card-body bg-secondary">
+                <h3 class="card-title">Video Production</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark w-100 rounded-0 p-3">Video Plans <i class="bi bi-caret-right-fill"></i></a>
+              </div> <!-- Closes card-body-->
+            </div> <!-- Closes card-->
+          </div>
+
+          <div class="col-md-4">
+            <div class="card rounded-0 border-0">
+              <img src="images/print.jpg" class="card-img-top rounded-0" alt="User on laptop and mobile device">
+              <div class="card-body bg-secondary">
+                <h3 class="card-title">Print</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark w-100 rounded-0 p-3">Print Plans <i class="bi bi-caret-right-fill"></i></a>
+              </div> <!-- Closes card-body-->
+            </div> <!-- Closes card-->
+          </div>
+
+          <div class="col-md-4">
+            <div class="card rounded-0 border-0">
+              <img src="images/digital.jpg" class="card-img-top rounded-0" alt="User on laptop and mobile device">
+              <div class="card-body bg-secondary">
+                <h3 class="card-title">Web Development</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark w-100 rounded-0 p-3">Web Plans <i class="bi bi-caret-right-fill"></i></a>
+              </div> <!-- Closes card-body-->
+            </div> <!-- Closes card-->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

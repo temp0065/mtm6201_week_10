@@ -1,0 +1,44 @@
+:root,
+[data-bs-theme=light],
+[data-bs-theme=dark] {
+    --bs-primary: #C78C06;
+    --bs-primary-rgb: 177, 126, 6;
+    --bs-secondary: #ffe6ac;
+    --bs-secondary-rgb: 255, 230, 172;
+    --cs-primary-dark: #ae7a01;
+    --cs-primary-rgb: 174, 122, 1;
+}
+
+.btn-outline-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+    }
+
+.btn-primary {
+    --bs-btn-color: var(--bs-dark);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: var(--bs-dark);
+    --bs-btn-hover-bg: var(--cs-primary-dark);
+    --bs-btn-hover-border-color: var(--cs-primary-dark);
+    --bs-btn-active-color: var(--bs-dark)
+    --bs-btn-active-bg: var(--cs-primary-dark);
+    --bs-btn-active-border-color: var(--cs-primary-dark);
+    --bs-btn-disabled-color: var(--bs-dark);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+/* custom CSS */
+
+.banner {
+    background:  white url(../images/main-banner.jpg) no-repeat center center;
+    background-size: cover;
+
+}
